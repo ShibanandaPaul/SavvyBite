@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SavvyBite</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body>
+        <header>
+            <div class="header">
+                <a href="index.html" class="logo">
+                    <img src="SavvyBiteLogo.png" alt="SavvyBite: Healthy Eating and Reducing Food Waste">
+                </a>
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li><a class="time" href="#feature" >Home</a></li>
+                        <li><a class="time" href="#video">About</a></li>
+                        <li><a class="time" href="#menu">Menu</a></li>
+                        <li><a class="time" href="#contact">Contact</a></li>
+                        <li><a class="time" href="Try/in.html" >Petition</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <li><button id="theme-button">Toggle Dark Mode</button></li>
+                </nav>    
+            </div>
+        </header>    
+        
+        <!-- Starting page -->
+        <div class="Welcome">
+            <h1>Welcome<br>to<br>SavvyBite</h1>
+            <br>
+            <p>Reducing food waste and promoting healthy eating in schools. Discover how we can help your school save money and the environment.</p>
+            <div class="cta-buttons">
+                <button href="https://www.usda.gov/foodlossandwaste/schools" class="btn" type="Button">More Info</button>
+                <button href="#contact"  class="btn" type="Button">Contact Us</button>
+            </div>
+            <a href="https://www.usda.gov/foodlossandwaste/schools">USDA.GOV</a>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ki_0iES2cGI?si=lppkuu3S5M-PGx9W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <section id="video">
+            <div class="image-container">
+                <img src="1.jpg" alt="Image 1 description" class="image-box">
+                <img src="image.png" alt="Image 2 description" class="image-box" id="pic">
+            </div>
+        </section>
+
+        <section id="feature">
+            <div class="container" >
+                <div class="feature">
+                    <h3>Track food consumption</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis blandit tempor, odio justo mattis libero, et scelerisque magna nulla ac velit.</p>
+                </div>
+                <div class="feature">
+                    <h3>Reduce food waste</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis blandit tempor, odio justo mattis libero, et scelerisque magna nulla ac velit.</p>
+                </div>
+                <div class="feature">
+                    <h3>Promote healthy eating</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis blandit tempor, odio justo mattis libero, et scelerisque magna nulla ac velit.</p>
+                </div>
+            </div>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <section>
+            <h1>Sign Our Petition</h1>
+            <p>Join us in supporting this by adding your signature below.</p>
+          
+            <p id="counter">🖊️ 3 people have signed this petition and support this.</p>
+            <div class="signatures">
+              <h2>Supporters:</h2>
+            </div>
+          
+        
+            <form id="signature-form" action="#">
+              <fieldset>
+                <label for="name">Your Name:
+                  <input id="name" name="name" type="text" placeholder="Enter your name" required />
+                </label>
+                <label for="hometown">Your Hometown:
+                  <input id="hometown" name="hometown" type="text" placeholder="Enter your hometown" required />
+                </label>
+                <label for="email">Your Email:
+                  <input id="email" name="email" type="email" placeholder="Enter your Email" required />
+                </label>
+              </fieldset>
+          
+              <button type="submit" id="sign-now-button">Sign Now</button>
+            </form>
+        </section>
+        <!-- Add HTML markup elements for your web site below -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 SavvyBite. All rights reserved.</p>
+            </div>
+            <a href="https://extension.sdstate.edu/food-waste-schools-and-strategies-reduce-it">Food Waste in Schools and Strategies to Reduce It</a>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
